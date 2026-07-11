@@ -21,6 +21,7 @@ import {
   testimonials,
 } from "@/data/data";
 */
+}
 
 const Portfolio = () => {
   const [isDialogOpen, setIsDialogOpen] = useState<boolean>(false);
