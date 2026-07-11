@@ -3,7 +3,7 @@ import { useState } from "react";
 import {
   About;
 
-  
+  /*
   Certifications,
   Contact,
   ContactDialog,
@@ -20,6 +20,7 @@ import {
   skillList,
   testimonials,
 } from "@/data/data";
+*/
 
 const Portfolio = () => {
   const [isDialogOpen, setIsDialogOpen] = useState<boolean>(false);
