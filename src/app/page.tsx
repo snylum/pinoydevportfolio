@@ -18,18 +18,17 @@ import {
   skillList,
   testimonials,
 } from "@/data/data";
-*/
 
 const Portfolio = () => {
   const [isDialogOpen, setIsDialogOpen] = useState<boolean>(false);
 
   return (
     <>
-      {/* <ContactDialog
+      <ContactDialog
         isOpen={isDialogOpen}
         onClose={() => setIsDialogOpen(false)}
-      /> */}
-      {/* <Header setIsDialogOpen={setIsDialogOpen} /> */}
+      />
+      <Header setIsDialogOpen={setIsDialogOpen} />
       <main className="px-8 pt-8">
         <About />
         {/* <Skills skills={skillList} /> */}
@@ -39,7 +38,7 @@ const Portfolio = () => {
         {/* <Contact /> */}
         {/* <IconsShowcase /> */}
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
