@@ -1,7 +1,9 @@
 "use client";
 import { useState } from "react";
 import {
-  About,
+  About;
+
+  
   Certifications,
   Contact,
   ContactDialog,
